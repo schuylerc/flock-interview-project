@@ -1,0 +1,44 @@
+{
+  "name": "flock-interview-project",
+  "version": "1.0.0",
+  "description": "A project part of the interview process at Flock.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "start": "node dist/index.js",
+    "lint": "eslint src",
+    "lint-fix": "eslint src --fix",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schuylerc/flock-interview-project.git"
+  },
+  "keywords": [
+    "Flock",
+    "Interview",
+    "Project"
+  ],
+  "author": "Schuyler Cumbie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/schuylerc/flock-interview-project/issues"
+  },
+  "homepage": "https://github.com/schuylerc/flock-interview-project#readme",
+  "dependencies": {
+    "@types/node": "^20.14.5",
+    "fs": "^0.0.1-security",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.5.0",
+    "@types/jest": "^29.5.12",
+    "eslint": "9.x",
+    "globals": "^15.6.0",
+    "typescript-eslint": "^7.13.1"
+  }
+}
